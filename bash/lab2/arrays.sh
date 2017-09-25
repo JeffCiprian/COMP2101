@@ -16,7 +16,7 @@ echo "My colours are: ${colours[*]}"
 echo "The animals array contains ${animals[red]}, ${animals[green]}, ${animals[blue]}."
 echo "${animals[*]} are all in my array."
 
-read -p "What number do you want from 0 to 2?"
+read -p "What number do you want from 0 to 2?" num
 currentcolour=${colours[$num]}
 currentanimal=${animals[$currentcolour]}
-echo "Number  refers to a $currentcolour $currentanimal"
+echo "Number $num refers to a $currentcolour $currentanimal"
